@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
     *{
         margin: 0;
         padding: 0;
@@ -8,12 +9,12 @@
     }
 
         body{
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(248, 253, 249);
         }
         header {
             padding: 32px ;
             border-bottom: 15px solid rgb(133, 81, 13);
-            background-color: rgb(76, 146, 44);
+            background-color: rgb(35, 129, 35);
         }
         header div {
             text-align: center; /*Alinhamento no meio do texto*/
@@ -24,6 +25,11 @@
             line-height: 30px; /*Altura da linha*/
             margin: 0.16px; /* Espaçamento entre os links */
             text-decoration:none; /* Remover sublinhado dos links */
+            font-family: "Playfair Display", serif;/*a fonte escolhida para o menu*/
+        }
+        header div a:hover { /*seleção do modo quando o mouse passar por cima "hover"*/
+            color: rgb(14, 56, 4); /*mudar para a cor verde escuro*/
+            transition: 500ms;/*e fazer uma transição de cor que dura 500ms*/
         }
 
 
