@@ -6,18 +6,18 @@
         box-sizing: border-box;
     }   
         body    {
-            background-color: var(--cor-terciaria);
+            background-color: rgb(50, 50, 50);
         }
         header {
             padding: 32px ;
-            border-bottom: 5px solid var(--cor-primaria);
-            background-color: var(--cor-secundaria);
+            border-bottom: 5px solid rgb(66, 141, 73);
+            background-color: rgb(22, 22, 22);
         }
         header div {
             text-align: center; /*Alinhamento no meio do texto*/
         }   
         header div a {
-            color: var(--cor-terciaria);  /* Cor do texto */
+            color: rgb(0, 0, 0); /* Cor do texto */
             font-size: 20px; /* Tamanho da fonte */
             line-height: 30px; /*Altura da linha*/
             margin: 1.00px; /* Espaçamento entre os links */
@@ -25,66 +25,70 @@
             font-family: "Playfair Display", serif;/*a fonte escolhida para o menu*/
         }
         header div a:hover { /*seleção do modo quando o mouse passar por cima "hover"*/
-            color: var(--cor-quaternaria); /*mudar para a cor verde escuro*/
+            color: purple;/*mudar para a cor roxo*/
             transition: 400ms;/*e fazer uma transição de cor que dura 400ms*/
         }
         #box {
-            text-align: center;
-            padding: 32px;
+            text-align: center; /*Alinhamento no meio do texto*/
+            padding: 32px; /*Espaçamento entre o conteúdo e a borda do box*/
         }
 
         #box img {
-            border-radius: 50%;
-            border: 5px solid var(--cor-primaria);
-            margin-bottom: 32px;
+            border-radius: 50%; /* Deixar a imagem circular */
+            border: 5px solid rgb(66, 141, 73); /* Adicionar uma borda verde ao redor da imagem */
+            margin-bottom: 32px; /* Adicionar um espaçamento abaixo da imagem */
         }
         
         #box h1{
-            padding: 4px;
-            font-size: 42px;
-            line-height: 52px;
-            font-weight: bold;
+            font-size: 42px; /* Tamanho da fonte */ 
+            line-height: 52px; /* Altura da linha */
+            font-weight: bold; /* Deixar o texto em negrito */
         }
         #box h2{
-            padding: 10px;
-            font-size: 24px;
-            line-height: 32px;
-            font-weight: normal;
-            margin-top: 8px;
-            opacity: 0.8;
+            font-size: 24px; /* Tamanho da fonte */
+            line-height: 32px; /* Altura da linha */
+            font-weight: normal; /* Deixar o texto em normal */
+            margin-top: 8px; /* Adicionar um espaçamento no topo */
+            opacity: 0.8; /* Adicionar transparência */
         }
         #box p :hover{
-            max-width: 500px;
-            margin: 32px auto;
-            font-size: 24px;
-            line-height: 34px;
+            max-width: 500px; /* Limitar a largura do parágrafo ao passar o mouse */
+            margin: 32px auto; /* Centralizar o parágrafo */
+            font-size: 24px; /* Aumentar o tamanho da fonte */
+            line-height: 34px; /* Aumentar a altura da linha */
         }
         #box a {
-            color: var(--cor-quintenaria);
-            transition: 400ms;
+            color: rgb(3, 3, 165); /* Cor do link */
+            text-decoration: none; /* Remover sublinhado do link */
+            transition: 400ms; /* Adicionar uma transição suave para a mudança de cor */
         }
-        
-        :root {
-            --cor-primaria: rgb(133, 81, 13);
-            --cor-secundaria: rgb(35, 129, 35);
-            --cor-terciaria: rgb(255, 255, 255);
-            --cor-quaternaria: rgb(10, 41, 3);
-            --cor-quintenaria: rgb(7, 27, 255);
-            --cor-sextenaria: rgb(0, 0, 0);
+
+        #box h1 {
+            padding: 4px; /* Adicionar um espaçamento ao redor do título */
+        }
+        #box h2 {
+            padding: 10px; /* Adicionar um espaçamento ao redor do subtítulo */
+        }
+        #box p:hover {
+            font-size: 23px; /* Aumentar o tamanho da fonte ao passar o mouse */
+        }
+        #box a {
+            color: rgb(3,3,165); /* Cor do link */
+            transition: 400ms; /* Adicionar uma transição suave para a mudança de cor */
         }
 
         .links {
           text-align: center;
         }
         .links a {
-            color: var(--cor-sextenaria);
+            color: rgb(255, 255, 255);
             font-size: 20px;
             line-height: 30px;
             margin: 0 16px;
             text-decoration: none;
         }
         .links a:hover {
-            color: var(--cor-primaria);
+            color: rgb(66, 141, 73);
             transition: 400ms;
             font-size: 32px;
         }
@@ -95,7 +99,7 @@
         #linksFooter a:hover {
             padding: top 32px; 
             padding: bottom 3px;
-            border: bottom 8px solid var(--cor-primaria); 
+            border: bottom 8px solid white; 
         }
 
         
